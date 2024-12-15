@@ -1,0 +1,25 @@
+{
+    "name": "employee-management-server",
+    "version": "1.0.0",
+    "description": "Employee Management API GraphQL",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/luohuazju/sillycat-graphql.git"
+    },
+    "license": "MIT",
+    "scripts": {
+      "start": "nodemon -e js,graphql -x node -r dotenv/config src/index.js",
+      "debug": "nodemon -e js,graphql -x node --inspect -r dotenv/config src/index.js"
+    },
+    "author": "Carl Luo",
+    "dependencies": {
+      "dotenv": "16.4.7",
+      "apollo-server-express": "3.13.0",
+      "express": "4.21.2",
+      "merge-graphql-schemas": "1.7.8"
+    },
+    "devDependencies": {
+      "nodemon": "3.1.9"
+    }
+  }
+  
