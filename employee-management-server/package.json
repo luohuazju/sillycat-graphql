@@ -14,9 +14,11 @@
     "author": "Carl Luo",
     "dependencies": {
       "dotenv": "16.4.7",
+      "graphql": "16.9.0",
       "apollo-server-express": "3.13.0",
       "express": "4.21.2",
-      "merge-graphql-schemas": "1.7.8"
+      "winston": "3.17.0",
+      "logform": "2.7.0"
     },
     "devDependencies": {
       "nodemon": "3.1.9"
