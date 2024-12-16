@@ -1,6 +1,9 @@
-const {Query, Mutation} = require('./employee-resolver');
+const {EmployeeQuery, EmployeeMutation} = require('./employee-resolver');
+const {DepartmentQuery, DepartmentMutation} = require('./department-resolver');
 
 module.exports = {
-    Query,
-    Mutation
+    ...EmployeeQuery,
+    ...EmployeeMutation,
+    ...DepartmentQuery,
+    ...DepartmentMutation
 }
