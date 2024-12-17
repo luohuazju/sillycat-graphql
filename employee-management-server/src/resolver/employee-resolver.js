@@ -8,7 +8,7 @@ const Query = {
             { id: '1', name: 'John Doe', age: 30, department: 'Engineering' },
             { id: '2', name: 'Jane Smith', age: 25, department: 'Marketing' },
         ];
-        return items; // Returns an array (valid for [Employee!]!)
+        return items;
     },
 };
 

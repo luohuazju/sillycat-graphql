@@ -9,7 +9,7 @@ const Query = {
             { id: '1', name: 'John Doe' },
             { id: '2', name: 'Jane Smith' },
         ];
-        return items; // Returns an array (valid for [Employee!]!)
+        return items; 
     },
 };
 

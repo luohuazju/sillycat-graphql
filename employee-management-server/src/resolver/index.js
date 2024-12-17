@@ -1,6 +1,10 @@
-const {Query} = require('./employee-resolver');
-//const {Query} = require('./department-resolver');
+const employeeResolver = require('./employee-resolver');
+const departmentResolver = require('./department-resolver');
 
-module.exports = {
-    Query
+const resolvers = {
+    Query: {
+        ...employeeResolver.Query,
+        ...departmentResolver.Query,
+    }
 }
+module.exports = resolvers;
