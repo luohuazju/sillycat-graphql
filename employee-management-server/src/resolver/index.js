@@ -1,5 +1,5 @@
 const {Query} = require('./employee-resolver');
-// const {Query, Mutation} = require('./department-resolver');
+//const {Query} = require('./department-resolver');
 
 module.exports = {
     Query
