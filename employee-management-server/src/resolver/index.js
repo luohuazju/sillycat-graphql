@@ -5,6 +5,9 @@ const resolvers = {
     Query: {
         ...employeeResolver.Query,
         ...departmentResolver.Query,
+    },
+    Mutation: {
+        ...employeeResolver.Mutation,
     }
 }
 module.exports = resolvers;
